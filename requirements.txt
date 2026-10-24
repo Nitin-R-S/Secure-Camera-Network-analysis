@@ -1,0 +1,16 @@
+opencv-python==4.10.0.84
+numpy==1.26.4
+ultralytics==8.2.103
+torch==2.4.1
+torchvision==0.19.1
+cryptography==43.0.1
+scapy==2.6.0
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+streamlit==1.38.0
+plotly==5.24.1
+pandas==2.2.2
+python-dotenv==1.0.1
+pydantic==2.9.2
+requests==2.32.3
+pytest==8.3.3
