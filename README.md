@@ -1,4 +1,4 @@
-# Secure Camera Network Analytics
+# Cross-Layer Trust Verification and Anomaly Detection in Secure Edge Camera Networks
 
 **Encrypted Video Streaming, Real-Time Network Attack Detection, and Cross-Layer Feed-Integrity Verification**
 
@@ -50,7 +50,7 @@ IP/CCTV camera networks are widely deployed across campuses, corporate facilitie
 
 This separation creates an exploitable blind spot: an adversary who achieves local network access (e.g., via ARP spoofing, rogue AP, or switch port access) can replace live camera feeds with replayed, looped, or falsified footage during an active physical intrusion. A vision-only model sees an unremarkable, calm room and raises no alert, while a network IDS raises a generic anomaly that SOC operators often dismiss due to alert fatigue.
 
-**Secure Camera Network Analytics** unifies:
+**Cross-Layer Trust Verification and Anomaly Detection in Secure Edge Camera Networks** unifies:
 1. **Edge-AI Object & Intrusion Detection** (YOLOv8-nano on Raspberry Pi 4 / Laptop)
 2. **Feed-Integrity Verification** (Motion, pixel variance, duplicate frame correlation, staticness, and replay scoring)
 3. **End-to-End AEAD Encryption** (AES-256-GCM with fresh 96-bit nonces and AAD binding node IDs)

@@ -38,7 +38,7 @@ from server.api_routes import (
     CameraRegisterRequest, EncryptedPayloadRequest, SyntheticEventRequest,
 )
 
-app = FastAPI(title="Secure Camera Network Analytics", version="1.0.0")
+app = FastAPI(title="Cross-Layer Trust Verification and Anomaly Detection in Secure Edge Camera Networks", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,

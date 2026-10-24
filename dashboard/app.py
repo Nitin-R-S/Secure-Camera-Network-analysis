@@ -1,7 +1,8 @@
 """
 dashboard/app.py
 
-Streamlit dashboard for Secure Camera Network Analytics. Reads directly
+Streamlit dashboard for Cross-Layer Trust Verification and Anomaly Detection
+in Secure Edge Camera Networks. Reads directly
 from the SQLite database (read path is decoupled from the FastAPI server
 for simplicity in this prototype) and presents:
 
@@ -32,7 +33,7 @@ import streamlit as st
 from database import database as db
 from config.settings import settings
 
-st.set_page_config(page_title="Secure Camera Network Analytics", layout="wide")
+st.set_page_config(page_title="Cross-Layer Trust Verification & Anomaly Detection", layout="wide")
 
 SEVERITY_COLORS = {
     "NORMAL": "#2ecc71",
@@ -80,7 +81,7 @@ def load_data():
     return cameras, detections, network_events, integrity_events, fusion_events, auth_events
 
 
-st.title("🔒 SECURE CAMERA NETWORK ANALYTICS")
+st.title("🔒 CROSS-LAYER TRUST VERIFICATION & ANOMALY DETECTION")
 st.caption("Cross-layer trust fusion: AI content signals + network IDS + feed integrity")
 
 if st.button("🔄 Refresh data"):
